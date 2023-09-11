@@ -1,4 +1,4 @@
-.h1 {
+h1 {
   color: #fff;
   font-family: Poppins;
   font-size: 70px;
@@ -8,20 +8,26 @@
   /* remove letter spacing */
   /* letter-spacing: 1.44px; */
   text-transform: capitalize;
-  max-width: 800px;
-
-  padding: 20px 5px 0px 130px;
+  max-width: 500px;
+  align-self: center;
+  padding: 20px 5px 0px 0px;
   margin-top: 20px;
+  margin-right:90px ;
 }
-.h3 {
+
+h3 {
   color: #fff;
   font-family: Poppins;
+  align-self: center;
   font-size: 30px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   text-transform: capitalize;
-  padding: 20px 5px 0px 131px;
+  margin-right:260px ;
+  margin-top: 20px;
+
+
 }
 h5 {
   color: #0f151a;
@@ -52,7 +58,7 @@ h5 {
   margin-bottom: 50px;
 }
 .HomeSlider > div {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 35px;
   align-self: center;
   border-radius: 8px;

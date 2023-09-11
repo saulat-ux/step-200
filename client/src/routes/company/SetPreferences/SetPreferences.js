@@ -79,7 +79,6 @@ export const SetPreferences = () => {
                                 required
                             />
                         </div>
-                        <div>
                             <button
                                 type="button"
                                 className="Perfrences-AddEmail-Button"
@@ -87,6 +86,7 @@ export const SetPreferences = () => {
                             >
                                 + Add Email
                             </button>
+                        <div>
                             {emails.length > 0 && (
                                 <ul>
                                     {emails.map((email, index) => (
@@ -105,10 +105,17 @@ export const SetPreferences = () => {
                                     time someone applies.
                                 </label>
                             </div>
+                            <div className="flex">
+                            <input
+                                    type="checkbox"
+                                    id="ByEmailToTheAddress"
+                                    className="input-pref123"
+                                />
                             <p className="heading-left-align para-pref">
                                 Let potential candidates contact you about this
                                 job
                             </p>
+                            </div>
                             <div className="flex">
                                 <input
                                     type="checkbox"
@@ -120,6 +127,7 @@ export const SetPreferences = () => {
                                 </label>
                             </div>
                             <div className="flex">
+                                
                                 <input
                                     type="checkbox"
                                     id="ByPhone"

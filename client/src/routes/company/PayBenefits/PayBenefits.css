@@ -16,9 +16,9 @@
 
 .small-div {
   @media (max-width: 400px) {
-    display: flex;
-    flex-direction: column;
-    width: 100% !important;
+      display: flex;
+      flex-direction: column;
+      width: 100% !important;
   }
 }
 
@@ -29,7 +29,7 @@
   gap: 1rem;
 
   @media (min-width: 500px) {
-    flex-direction: row;
+      flex-direction: row;
   }
 }
 
@@ -47,7 +47,7 @@
   width: 500px;
 
   @media (min-width: 500px) {
-    width: 100%;
+      width: 100%;
   }
 }
 
@@ -73,8 +73,8 @@
   display: none;
 }
 
-.pay-benefits-input-container h4 {
-  margin-right: 0px;
+h4 {
+  margin-right: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,13 +89,13 @@
   text-align: left;
   padding-inline: 0 !important;
 }
-
 .bg {
   background-color: #cf1350;
   color: white;
 }
-.bo .checked {
-  background-color: #cf134f;
+
+.checked {
+  background-color: #cf1350;
   color: white;
 }
 
@@ -160,7 +160,7 @@ body {
 }
 
 .form-back-button {
-  margin-top: 80px;
+  margin-top: 30px;
   width: 122px;
   height: 43px;
 }
@@ -168,7 +168,7 @@ body {
 .tech-detail-submit-button {
   width: 300px;
   height: 43px;
-  margin-top: 85px;
+  margin-top: 33px;
   font-size: 15px;
 }
 
@@ -213,4 +213,18 @@ body {
   height: 5px;
   width: 200px;
   margin-top: 12px;
+}
+.payBenefits-bonus-heading {
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .Horizontal-Line-below-header-parent {
+  }
+  .round-horizontal-1 {
+      width: 20%;
+  }
+  .round-horizontal-2 {
+      width: 20%;   /* This line has a typo */
+  }
 }

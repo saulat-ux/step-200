@@ -24,6 +24,8 @@
 }
 .input-pref123 {
   accent-color: #cf1350;
+  top: 10px;
+  position: relative;
 }
 
 label {
@@ -35,14 +37,16 @@ label {
   font-size: 1rem;
 }
 .Perfrences-AddEmail-Button {
-  color: black;
+  color: #d63d3d;
   background-color: transparent;
   font-size: 24px;
   display: block;
   margin-right: auto;
-  margin-left: -20px;
-  margin-top: 94px;
-  margin-bottom: -82px;
+  margin-bottom: 25px;
+  padding: 7px;
+  border-radius: 4px;
+  border: 1px solid;
+
 }
 .sendUpdates-pref {
   color: #000;

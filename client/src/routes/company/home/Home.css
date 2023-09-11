@@ -88,12 +88,16 @@ icons-section svg {
     flex-direction: row;
   }
 }
+.company-home-welcome-heading{
+  position: relative;
+  right: 30px;
+}
 
 .company-home-welcome-container {
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+
   & h1 {
     /* adjust the font-size */
     font-size: 2rem;
